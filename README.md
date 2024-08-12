@@ -11,9 +11,12 @@ I. Pré-requis :
 
 
 
+
 II. Installation du serveur :
 
 Téléchargez et installez la dernière version du serveur Ubuntu ici: https://releases.ubuntu.com/24.04/ubuntu-24.04-live-server-amd64.iso
+
+
 
 
 III. Installer le serveur NTP :
@@ -44,6 +47,14 @@ connectez-vous à votre serveur et executez cette commande dans le terminal:
   
   systemctl enable ntp
 
+
+
+
+IV. Configurer le serveur NTP
+
+Vous devez modifier le fichier de configuration principal dans: /etc/ntp.conf
+
+Par défaut déjà la configuration est déjà bonne pour vous permetre de sysnchroniser vos horloges, mais si vous souhaitez apporter votre protre touche, téléchargez le fichier ntp.conf pour voir son contenu.
 
 
 ...........
