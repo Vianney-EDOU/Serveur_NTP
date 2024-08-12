@@ -22,19 +22,23 @@ connectez-vous à votre serveur et executez cette commande dans le terminal:
 
 - Mettre à jour la liste des paquets disponibles sur un système basé sur Debian ou Ubuntu:
 
-sudo sudo apt update
+  sudo sudo apt update
+
 
 - Mettre à jour les paquets installés avec la commande:
 
-sudo apt upgrade
+  sudo apt upgrade
+
 
 - Utilisez l’une des commandes suivantes pour installer NTP:
 
   sudo apt-get install ntp
 
+
 - Verifier le statut:
   
   systemctl status ntp
+
 
 - Démarer automatiquement le NTP au démarage du serveur:
   
