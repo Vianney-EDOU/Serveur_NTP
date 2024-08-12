@@ -35,7 +35,7 @@ sudo apt upgrade
 - Verifier le statut
   systemctl status ntp
 
-- Démarer automatiquement le NTP au démarage du serveur
+- Démarer automatiquement le NTP au démarage du serveur 
   systemctl enable ntp
 
 
