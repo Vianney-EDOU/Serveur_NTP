@@ -57,4 +57,9 @@ Vous devez modifier le fichier de configuration principal dans: /etc/ntp.conf
 Par défaut déjà la configuration est déjà bonne pour vous permetre de sysnchroniser vos horloges, mais si vous souhaitez apporter votre protre touche, téléchargez le fichier ntp.conf pour voir son contenu.
 
 
+
+V. Configurer la dete de votre serveur en fonction de votre timezone
+
+- Pour ceux qui sont au Gabon
+  sudo timedatectl set-timezone Africa/Libreville
 ...........
