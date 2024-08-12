@@ -7,6 +7,7 @@ I. Pré-requis :
 3/ Connexion au réseau local où le serveur NTP sera déployé.
 
 II. Installation du serveur 
+
 Téléchargez et installez la dernière version du serveur Ubuntu ici: https://releases.ubuntu.com/24.04/ubuntu-24.04-live-server-amd64.iso
 
 III. Installer le serveur NTP
