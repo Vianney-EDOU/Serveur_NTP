@@ -11,12 +11,12 @@ I. Pré-requis :
 
 
 
-II. Installation du serveur 
+II. Installation du serveur :
 
 Téléchargez et installez la dernière version du serveur Ubuntu ici: https://releases.ubuntu.com/24.04/ubuntu-24.04-live-server-amd64.iso
 
 
-III. Installer le serveur NTP
+III. Installer le serveur NTP :
 
 connectez-vous à votre serveur et executez cette commande dans le terminal: 
 
@@ -29,5 +29,9 @@ sudo sudo apt update
 
 sudo apt upgrade
 
+- Utilisez l’une des commandes suivantes pour installer NTP:
 
-sudo apt-get install ntp
+  sudo apt-get install ntp
+
+
+...........
