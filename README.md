@@ -24,7 +24,6 @@ connectez-vous à votre serveur et executez cette commande dans le terminal:
 
 sudo sudo apt update
 
-
 - Mettre à jour les paquets installés avec la commande
 
 sudo apt upgrade
@@ -32,6 +31,13 @@ sudo apt upgrade
 - Utilisez l’une des commandes suivantes pour installer NTP:
 
   sudo apt-get install ntp
+
+- Verifier le statut
+  systemctl status ntp
+
+- Démarer automatiquement le NTP au démarage du serveur
+  systemctl enable ntp
+
 
 
 ...........
